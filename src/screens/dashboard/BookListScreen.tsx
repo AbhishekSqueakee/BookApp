@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import {View, FlatList, Text} from 'react-native';
 import {fetchBooks} from "../../redux/async_task/BookAsyncTask.ts";
 import {useAppDispatch, useAppSelector} from "../../hooks/hooks.ts";
-import BookCard from "../../components/BookCard.tsx";
+import BookCard from "../components/BookCard.tsx";
 
 const BookListScreen = () => {
     const CARD_HEIGHT = 200;
